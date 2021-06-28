@@ -1,0 +1,5 @@
+googletrans
+nltk
+flask
+requests
+wolframalpha
