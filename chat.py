@@ -13,5 +13,3 @@ def get_bot_response():
     return str(reply(userText,request.remote_addr))
 
 run = app.run(debug=False,host='0.0.0.0')
-t = Thread(target=run)
-t.start()
